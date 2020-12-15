@@ -19,31 +19,20 @@ margin-top: 175px;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     border-bottom: 1px solid #dadce0;
-
     text-align: left;
-
 }
 
 #bas2_gauche {
     background: rgb(223, 222, 222);
-    width: 1520px;
     height: 100%;
     font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: row;
 
 }
 
 #bas2_droite {
     background: rgb(223, 222, 222);
-    width: 1520px;
     height: 40px;
     font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
 }
 
 
@@ -67,11 +56,13 @@ margin-top: 175px;
 
     #pied {
         display: flex;
-        align-content: flex-end;
         color: gray;
         display: inline-block;
         padding: 12px 12px;
         margin-top: 200px;
+        width: 1500px;
+       
+        
     }
 
     #top {
@@ -134,5 +125,18 @@ margin-top: 175px;
 
 display: flex;
 justify-content: center;
+
+    }
+
+    #bas {
+        display: flex;
+        flex-flow: row nowrap;
+        
+    }
+
+    #boutton {
+        display: flex;
+        justify-content: center;
+
 
     }
