@@ -1,3 +1,10 @@
+*{
+	padding: 0;
+	margin:0;
+	box-sizing: border-box;
+	text-decoration: none;
+    font-family: arial, sans-serif;
+}
 #image {
 display: flex;
 justify-content: center;
@@ -39,15 +46,15 @@ margin-top: 175px;
     justify-content: flex-end;
 }
 
-#boutton {
-    display: flex;
-    justify-content: center;
 
-}
+
+
 #recherche {
     display: flex; 
     justify-content: center;
     background-color: transparent;
+    border-radius: 100%;
+    border-radius: 5px 10px;
 
   
 }
@@ -61,12 +68,19 @@ margin-top: 175px;
     #pied {
         display: flex;
         align-content: flex-end;
+        color: gray;
+        display: inline-block;
+        padding: 12px 12px;
+        margin-top: 200px;
     }
 
     #top {
         font-family: Arial, Helvetica, sans-serif;
         display: flex;
         justify-content: flex-end;
+        margin-top: 10px;
+        border-radius: 5px 10px;
+       
 
 
 
@@ -74,7 +88,51 @@ margin-top: 175px;
     }
 
     #bleu {
-        background: blue;
+        background: #4285f4;
         color: white;
+        text-align: center;
+        padding: 10px;
+        border-radius: 5px 5px;
+    }
+    #barre {
+        border-radius: 10px;
+        size: 200%;
+    }
+
+
+    .mail {
+        display: flex;
+        margin-right: 10px;
+
+    }
+
+    .image {
+        display: flex;
+        margin-right: 10px;
+
+
+    }
+
+
+  
+
+    .bout {
+        border:1px solid transparent;
+        padding: 9px 15px;
+        font-size: 14px;
+        border-radius: 10px;
+        display: inline-block;
+        margin-right: 10px;
+        margin-top: 28px;
+        outline: none;
+        cursor: pointer;
+        transition: border-color 100ms;
+    }
+
+
+    .boutton {
+
+display: flex;
+justify-content: center;
 
     }
